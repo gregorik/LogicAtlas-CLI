@@ -19,12 +19,13 @@ LogicAtlas-CLI.exe <InputFolder> [Flags]
 
 ## Flags
 
-Flag	Description	Default
--o <name>	Output filename	atlas
---padding <px>	Pixel padding between sprites	2
---pivot <mode>	Global pivot setting	C
+-o <name>	Output filename	(default: atlas)
 
-Pivot Modes:
+--padding <px>	Pixel padding between sprites (default:	2)
+
+--pivot <mode>	Global pivot setting (Default:	C)
+
+## Pivot Modes:
 
     C : Center (0.5, 0.5)
 
@@ -32,16 +33,15 @@ Pivot Modes:
 
     BC: Bottom-Center (0.5, 1.0) - Great for characters
 
-Example
+## Example
 
 To pack a folder of RPG characters with Bottom-Center pivots (for feet alignment):
 code Bash
-
-    
+ 
 LogicAtlas-CLI.exe "./Sprites/Characters" -o Chars --pivot BC
 
   
-📦 integration (Godot Example)
+## 📦 Integration (Godot Example)
 
 The tool outputs a standard JSON. Parse it to set up your sprites automatically.
 code Gdscript
