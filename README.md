@@ -7,6 +7,9 @@ Generates texture atlases and JSON data files with embedded logic.
 👉 **[Get LogicAtlas PRO on Itch.io](https://gregorigin.itch.io/logicatlas)**  
 *(The Pro version includes a GUI, visual anchor editing, and individual sprite settings)*
 
+*If you have consulting and/or custom pipeline integration in mind: I offer dedicated architecture consulting for production games & projects.* 📬 Please [contact me](https://gregorigin.com/contact.html) or see my [extended portfolio](https://www.gregorigin.com/Portfolio/). 👨‍💻 
+
+
 ## 🚀 Features
 - **Shelf Packing Algorithm:** Efficiently packs sprites by height.
 - **JSON Data Export:** Includes coordinates, dimensions, and pivot logic.
